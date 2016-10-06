@@ -1,0 +1,17 @@
+html {
+  background-color: #808080;
+}
+
+#form {
+  background-color: #c0c0c0;
+}
+
+#success {
+  display:none;
+  text-align: center;
+  color: #00ff00;
+}
+
+#instructions {
+  font-style: italic;
+}
