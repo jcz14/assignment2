@@ -2,6 +2,15 @@ html {
   background-color: #808080;
 }
 
+#title {
+  color: white;
+}
+
+#instructions {
+  color: white;
+  font-style: italic;
+}
+
 #form {
   background-color: #c0c0c0;
 }
@@ -10,8 +19,4 @@ html {
   display:none;
   text-align: center;
   color: #00ff00;
-}
-
-#instructions {
-  font-style: italic;
 }
