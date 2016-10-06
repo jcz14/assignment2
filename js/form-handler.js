@@ -1,6 +1,11 @@
 function validate(form) {
+  // prevent form from clearing after submit button is clicked
   event.preventDefault();
+  
+  // keep track of form validity
   var valid=true;
+  
+  // display alert message and set validity status to false if any field is left blank
   if(form.firstName.value=="") {
     alert("Please enter your first name.");
     valid=false;
@@ -37,6 +42,8 @@ function validate(form) {
     alert("Please enter the ZIP code for your address.");
     valid=false;
   }
+
+  // if all fields have been filled out replace the form with a success message
   if(valid) {
     document.getElementById("instructions").style.display="none";
     document.getElementById("form").style.display="none";
